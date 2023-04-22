@@ -1,0 +1,24 @@
+.grid div{border: 1px solid black;}
+.grid{
+    display: grid;
+    /* es la propiedad 
+    que nos habilita el uso de grillas */
+    /* grid-template-columns: 300px 100px; */
+    /* grid template columns acepta valores en px, % 
+y fracciones. Los valores pueden ir separados
+por un espacio y los valores van a representar el
+el tama;o de ancho de cada columna */
+    /* grid-template-rows: 100px 400px; */
+    /*acepta valores en px, %, fr y auto. Los valores
+    puede ir separados por un espacio. Los
+    valores representan el tama;o de alto 
+    de cada fila */
+    /* grid-template-rows:  600px 200px 100px 200px; */
+    /* grid-template-columns: 1fr; */
+    grid-template-columns:30% 70%;
+    grid-template-rows:auto auto;
+}
+head{background-color: grey;}
+ul{list-style-type: none;}
+a{text-decoration: none;}
+.img-fluid{width: 100%; height: auto;}
