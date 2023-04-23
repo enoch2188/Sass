@@ -26,17 +26,31 @@ head {
   background-color: grey;
 }
 
-ul {
-  list-style-type: none;
-}
-
-a {
-  text-decoration: none;
-}
-
 .img-fluid {
   width: 100%;
   height: auto;
+}
+
+header {
+  background-color: #aacc99;
+}
+header nav {
+  padding: 10px;
+}
+header nav ul {
+  display: flex;
+}
+header nav ul li {
+  list-style-type: none;
+}
+header nav ul li a {
+  text-decoration: none;
+  font-size: 1.7rem;
+  font-family: "tahoma";
+  font-weight: bold;
+}
+header nav ul li:hover {
+  color: goldenrod;
 }
 
 /* MOBILE */
